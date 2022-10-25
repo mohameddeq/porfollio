@@ -26,7 +26,7 @@ a{
 
 }
 .nav{
-position: fixed;
+position:fixed;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -40,15 +40,7 @@ transition: all 0.5s ease;
 
 
 
-.nav .navbar-toggler .toggler-icon{
- height:3px ;
- width:27px ;
- background-color:fff;
- margin : 5px 0;
- position: relative;
- display: block;
- transition: all 0.3s ease-out 0s;
-}
+
 .nav .menu-bar .menu-item{
 	display: flex;
 	flex-direction: row;
@@ -88,13 +80,14 @@ h6{
 }
 .back{
 	height: 120vh ;
-	background-image: url(Autfit.jpg);
+	background-image: url(img/Autfit.jpg);
 	display: inline-block;
 	width: 100%;
-	background-size: cover;
-	background-attachment:fixed ;
+	background-size: 100%;
+	background-attachment:fixed;
+	
 	}
-
+	
 	.hero-text{
 		position: absolute;
 		top: 50%;
